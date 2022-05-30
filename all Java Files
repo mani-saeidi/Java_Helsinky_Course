@@ -1,0 +1,120 @@
+// java code:
+// Question 5:
+import java.util.Scanner;
+public class Message
+{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String message = scanner.nextLine();
+        System.out.println(message);
+    }
+}
+
+// *******************
+// Question 6:
+public class HiAdaLovelace {
+
+    public static void main(String[] args) {
+        String name = "Ada Lovelace";
+        System.out.println("Hi " + name +"!");
+    }
+}
+// *******************
+// Question 7:
+import java.util.Scanner;
+public class MessageThreeTimes {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Write a message: ");
+        String message = scanner.nextLine();
+        System.out.println(message);
+        System.out.println(message);
+        System.out.println(message);
+    }
+}
+
+// *******************
+// Question 8:
+import java.util.Scanner;
+
+public class Greeting {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What's your name?");
+        // Write your program here
+        String message = scanner.nextLine();
+        System.out.println("Hi " + message);
+    }
+}
+
+// *******************
+// Question 9:
+import java.util.Scanner;
+
+public class Conversation{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Greetings! How are you doing?");
+        // Write your program here
+        String messageOne = scanner.nextLine();
+        System.out.println("Oh, how interesting. Tell me more!");
+        String messageTwo = scanner.nextLine();
+        System.out.println("Thanks for sharing!");
+    }
+}
+
+
+// *******************
+// Question 10:
+import java.util.Scanner;
+
+public class Story {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("I will tell you a story, but I need some information first.");
+		System.out.println("What is the main character called?");
+		String name = scanner.nextLine();
+        System.out.println("What is their job?");
+        String job = scanner.nextLine();
+        System.out.println("Here is the story:");
+        System.out.println("Once upon a time there was " + name + " who was a " + job + ".");
+        System.out.println("On the way to work, " + name + " reflected on life.");
+		System.out.println("Perhaps " + name + " will not be a " + job + " forever.");
+    }
+}
+
+// *******************
+// Question 11:
+
+public class VariousVariables {
+
+    public static void main(String[] args) {
+        // MODIFY THESE:
+
+        int numberOfChicken = 9000;
+        double baconWeight = 0.1;
+        String tractor = "Zetor";
+
+        // DON'T MODIFY THESE:
+        System.out.println("Chicken:");
+        System.out.println(numberOfChicken);
+        System.out.println("Bacon (kg):");
+        System.out.println(baconWeight);
+        System.out.println("Tractor:");
+        System.out.println(tractor);
+        System.out.println("");
+        System.out.println("And finally, a summary:");
+        System.out.println(numberOfChicken);
+        System.out.println(baconWeight);
+        System.out.println(tractor);
+    }
+}
+
+// *******************
+// Question 12:
+
+
